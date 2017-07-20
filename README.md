@@ -5,3 +5,4 @@ As I work on projects, and learn new things, I will write about them here so I k
   * [Frontend](https://github.com/FrozenDroid/Learning/blob/master/Web/Frontend)
     * [AngularJS](https://github.com/FrozenDroid/Learning/blob/master/Web/Frontend/AngularJS)
       * [Performance](https://github.com/FrozenDroid/Learning/blob/master/Web/Frontend/AngularJS/Performance.md)
+      * [Input](https://github.com/FrozenDroid/Learning/blob/master/Web/Frontend/AngularJS/Input.md)
