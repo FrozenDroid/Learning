@@ -6,3 +6,5 @@ As I work on projects, and learn new things, I will write about them here so I k
     * [AngularJS](https://github.com/FrozenDroid/Learning/blob/master/Web/Frontend/AngularJS)
       * [Performance](https://github.com/FrozenDroid/Learning/blob/master/Web/Frontend/AngularJS/Performance.md)
       * [Input](https://github.com/FrozenDroid/Learning/blob/master/Web/Frontend/AngularJS/Input.md)
+* [Software Design](https://github.com/FrozenDroid/Learning/tree/master/Software%20Design)
+  * [Safety](https://github.com/FrozenDroid/Learning/blob/master/Software%20Design/Safety.md)
