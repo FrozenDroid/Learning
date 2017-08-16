@@ -9,3 +9,6 @@ To do this, you first have to disable Docker's intefering with IPTABLES.
 2. Add `{ "iptables": false }` to the file, or add the key-value pair to the JSON if it is already present.
 
 Now you can manually create rules!
+## Inside container or not?
+Once, I needed to determine whether a script was running inside of a container.  
+A good way of doing this is by checking if there is a file called `.dockerenv` inside the root. If it is there, it means the script is running inside a Docker container.
