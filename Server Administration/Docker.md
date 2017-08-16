@@ -6,7 +6,7 @@ Because I did not want to let users access the service without going through Cad
 
 To do this, you first have to disable Docker's intefering with IPTABLES.
 1. Create the file `/etc/docker/daemon.json` if it doesn't already exist.
-2. Add `{ "iptables": false }` to the file, or add the key-value pair to the JSON if it is already present.
+2. Add `{ "iptables": false }` to the file, or add the key-value pair to the JSON root if it is already present.
 
 Now you can manually create rules!
 ## Inside container or not?
