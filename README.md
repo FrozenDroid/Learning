@@ -11,4 +11,4 @@ As I work on projects, and learn new things, I will write about them here so I k
 * [Server Administration](https://github.com/FrozenDroid/Learning/blob/master/Server%20Administration)
   * [Docker](https://github.com/FrozenDroid/Learning/blob/master/Server%20Administration/Docker.md)
     * [IPTABLES](https://github.com/FrozenDroid/Learning/blob/master/Server%20Administration/Docker.md#iptables)
-    * [Inside container or not?](https://github.com/FrozenDroid/Learning/blob/master/Server%20Administration/Docker.md#illfixthis)
+    * [Inside container or not?](https://github.com/FrozenDroid/Learning/blob/master/Server%20Administration/Docker.md#inside-container-or-not)
