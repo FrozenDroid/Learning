@@ -3,7 +3,8 @@
 I really like combining AngularJS with TypeScript since it helps with (duh) type safety, and just makes for a way more enjoyable development experience.
 ### Promises (async, await)
 With TypeScript, you can use `await` and `async` like you can in C#, for example. Internally, TypeScript expects to work with native ES2015 Promises when you use `async`.
-However, AngularJS has its own Promise implementation named [$q](https://docs.angularjs.org/api/ng/service/$q), and you might run into issues if you use native Promises. I've used native promises with AngularJS and it does work, however you do have to call `$scope.$apply();` when changing bound data.  
+However, AngularJS has its own Promise implementation named [$q](https://docs.angularjs.org/api/ng/service/$q), and you might run into issues if you use native Promises.  
+I've used native promises with AngularJS and it does work, however you do have to call `$scope.$apply();` when changing bound data.  
 There's a much neater way of doing it though. You can change `window.Promise` and set that to use `$q`, like so:  
 ```js
 app.run(['$window', '$q', ($window, $q) => {
@@ -14,6 +15,7 @@ Now, when you use `async` and `await`, it will use `$q` instead. This also means
 There's one thing we have to fix though. If you look at your compiled code, you'll see a helper in every file that uses async functions.  
 Instead, set `compilerOptions.noEmitHelpers` and `compilerOptions.importHelpers` to `true` in your `tsconfig.json`.  
 Now they should imported only once.
+I found out how to do this thanks to [this blog post](https://blog.mariusschulz.com/2016/12/16/typescript-2-1-external-helpers-library#the-importhelpers-flag-and-tslib).
 ## Performance
 These are a few tricks I've found along the way to improve the performance of your application.
 ### Debug data
